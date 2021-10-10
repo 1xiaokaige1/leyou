@@ -7,7 +7,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
 @EnableEurekaClient
-@MapperScan("com.leyou.item.mapper")
+@MapperScan("com.leyou.mapper")
 public class LyItemApplication {
     public static void main(String[] args) {
         SpringApplication.run(LyItemApplication.class, args);
